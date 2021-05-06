@@ -9,6 +9,7 @@ function RandomJoke() {
       (response) => {
         console.log(response);
         setJoke(response.data.setup + "..." + response.data.punchline);
+        //added new commented line
       }
     );
   };
